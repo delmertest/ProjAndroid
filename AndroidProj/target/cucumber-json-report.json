@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-05-29T19:15:20.342Z",
+        "line": 12,
+        "name": "VodQA navigation",
+        "description": "",
+        "id": "bcp-mobile-automation-exam;vodqa-navigation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5818244264,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I set up appium server",
+            "match": {
+              "location": "VodQASteps.i_set_up_appium_server()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23592203708,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login with user \"admin\" and password \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 39
+                }
+              ],
+              "location": "VodQASteps.i_login_with_user_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8444463525,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I tap on Carousel",
+            "match": {
+              "location": "VodQASteps.i_tap_on_Carousel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1148492669,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify that the first number displayed is \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 44
+                }
+              ],
+              "location": "VodQASteps.i_verify_that_the_first_number_displayed_is(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mobile"
+          }
+        ]
+      }
+    ],
+    "name": "BCP mobile automation exam",
+    "description": "",
+    "id": "bcp-mobile-automation-exam",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/VodQA.feature",
+    "tags": []
+  }
+]
